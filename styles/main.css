@@ -57,7 +57,6 @@ p {
 
 li {
     padding: 2px;
-    /* margin: 5px; */
     color: rgba(252, 247, 248, 0.8);
     font-size: 15px;
     font-weight: 500;
@@ -111,10 +110,8 @@ button {
 
 .page-content {
     margin: auto;
-    /* margin-top: 50px; */
     width: 75%;
     max-width: 1200px;
-    /* min-width: 450px; */
 }
 
 .content-container {
@@ -171,7 +168,7 @@ button {
 
 .project {
     height: 75vh;
-    min-height: 300px;
+    min-height: 600px;
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
@@ -180,7 +177,7 @@ button {
 
 .project-alt {
     height: 75vh;
-    min-height: 300px;
+    min-height: 600px;
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
