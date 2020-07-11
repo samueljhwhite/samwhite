@@ -171,6 +171,7 @@ button {
 
 .project {
     height: 75vh;
+    min-height: 300px;
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
@@ -179,10 +180,9 @@ button {
 
 .project-alt {
     height: 75vh;
+    min-height: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    /* margin-top: 10vh; */
-    /* margin-bottom: 10vh; */
     display:flex;
     justify-content: flex-start;
 }
@@ -255,7 +255,7 @@ button {
     padding-top: 30px;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media all and (max-device-width: 600px) {
     .project {
         height: 35vh;
         margin-top: 10vh;
