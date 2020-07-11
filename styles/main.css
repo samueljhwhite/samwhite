@@ -258,10 +258,14 @@ button {
 @media only screen and (max-device-width: 768px) {
     .project {
         height: 35vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
     }
     
     .project-alt {
         height: 35vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
     }
 
     html {
