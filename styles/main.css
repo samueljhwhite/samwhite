@@ -144,14 +144,12 @@ button {
 }
 
 #tag {
-    height: 15vw;
+    height: 14vw;
 }
 
 #first {
     font-family: 'Inter', sans-serif;
     color: rgba(252, 247, 248, 0.8);
-    /* text-align: right; */
-    /* margin-top: 10vh; */
     line-height: 0.8em;
     font-weight: 900;
     font-family: "Inter", sans-serif;
@@ -169,21 +167,19 @@ button {
 }
 
 .project {
-    height: 80vh;
+    height: 75vh;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
     display:flex;
     justify-content: flex-end;
 }
 
 .project-alt {
-    height: 80vh;
+    height: 75vh;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    /* margin-top: 10vh; */
+    /* margin-bottom: 10vh; */
     display:flex;
     justify-content: flex-start;
 }
@@ -254,4 +250,14 @@ button {
 .form-wrapper {
     padding-left: 100px;
     padding-top: 30px;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .project {
+        height: 35vh;
+    }
+    
+    .project-alt {
+        height: 35vh;
+    }
 }
