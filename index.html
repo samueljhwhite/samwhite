@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Sam White</title>
+    <meta name="description" content="Sam's Portfolio">
+    <meta name="robots" content="noindex">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+
+  <body>
+  
+    <nav id="navigation">
+        <div class="logo">
+                <img src="./assets/SW.svg" height=40px width=40px> 
+        </div>
+        <div class="nav-links">
+            <a href="#contact"> 
+                <span class="nav-link"> <img src="./assets/contact.svg" height="30px"> </span>
+            </a>
+        </div>
+        
+    </nav>
+
+    <div class="page-content">
+
+        <div class="title">
+            <div>
+                <div id="first">
+                    <img src="./assets/tag.svg" id="tag">
+                    SAM
+                </div>
+                <div id="last">WHITE </div>
+            </div>
+        </div>
+
+
+        <div class="project" id="devtracker">
+            <div class="project-content">
+                <div class="project-title">DEVTRACKER</div>
+                <div class="highlighted">MERN Stack CRUD Application</div>
+                <div class="project-description">
+                    <p>
+                        DevTracker is a MERN stack CRUD application, akin to Trello or Jira. It makes use of the HTML Drag and Drop API, and is deployed with Heroku.
+                    </p>
+                    <p>        
+                        Manage projects, tasks, and subtasks, which are organised by statuses, and tags. Sort against three conditions, or filter through task names. 
+                    </p>
+                </div>
+                <div class="highlighted">
+                    <a href="https://github.com/samueljhwhite/development-tracker" target="_blank">See the code</a>
+                </div>
+                <div class="highlighted">
+                    <a href="https://aqueous-garden-71653.herokuapp.com/" target="_blank">Go to demo site</a>
+                </div> 
+            </div>
+        </div>
+
+
+
+
+        <div class="project-alt" id="game">
+            <div class="project-content-alt">
+                <div class="project-title">CONWAY'S GAME OF LIFE</div>
+                <div class="highlighted">JavaScript Simulation: Cellular Automata</div>
+                <div class="project-description-alt">
+                    <p>
+                        A simulation of Conway's Game of Life.
+                    </p>
+                    <p>
+                        Every cell interacts with it's eight neighbours, and has two possible states; alive or dead. Each iteration follows these steps: 
+                    </p>
+                    <p>        
+                        <ol>
+                            <li>Any live cell with fewer than two live neighbours dies, as if by underpopulation.</li>
+                            <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+                            <li>Any live cell with more than three live neighbours dies, as if by overpopulation.</li>
+                            <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+                        </ol>
+                    </p>
+                </div>
+                <div class="highlighted">
+                    <a href="https://github.com/samueljhwhite/game-of-life" target="_blank">See the code</a>
+                </div>
+                <div class="highlighted">
+                    <a href="https://relaxed-leavitt-363e97.netlify.app/" target="_blank">Go to demo site</a>
+                </div> 
+            </div> 
+        </div>
+
+
+
+
+        <div class="project" id="cocktail">
+            <div class="project-content">
+                <div class="project-title">COCKTAIL DB</div>
+                <div class="highlighted">REACT.JS SPA</div>
+                <div class="project-description">
+                    <p>
+                        cocktailDB is a SPA written in React, and deployed with Netlify.
+                    </p>
+                    <p>        
+                        A simple content website, with front-loaded demonstration data. Search, filter, and submit cocktail recipes.
+                    </p>
+                </div>
+                <div class="highlighted">
+                    <a href="https://github.com/samueljhwhite/cocktailrecipe" target="_blank">See the code</a>
+                </div>
+                <div class="highlighted">
+                    <a href="https://www.cocktaildb.net/" target="_blank">Go to demo site</a>
+                </div> 
+            </div> 
+        </div>
+
+
+
+
+        <div class="content-container">
+            <h2>Hi,</h2>
+            <div class="content-text">
+                <div class="text-container">
+                    <p>
+                        I'm <span class="highlighted">Sam White</span>, an aspiring <span class="highlighted">JavaScript</span> developer.
+                    </p>
+                    <p>
+                        I noticed that you're currently looking for a <span class="highlighted">front-end developer</span>, so I reached out.
+                    </p>
+                    <p>        
+                        Above you would've seen summaries of <span class="highlighted">three projects</span> I've completed; a CRUD application, a 0-player game, and a content website. You can find the link to staging sites, and GitHub repositories for each project, alongside information on the technology used to build each application.
+                    </p>
+                    <p>        
+                        Thanks for your time - I'd appreciate the opportunity to <span class="highlighted">discuss my compability within your organisation.</span>
+                    </p>
+                    <p>        
+                        If you'd like to talk, you can reach me on <span class="highlighted">06 4386 1724</span>. Or use the contact form here.
+                    </p>
+                </div>
+                <div class="form-wrapper">
+                    <span class="highlighted" id="contact"> <a name="contact" >Get in Touch </a> </span>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <p>
+                        <label>Name: <br> <input type="text" name="name" /></label>   
+                        </p>
+                        <p>
+                        <label>Email: <br> <input type="email" name="email" /></label>
+                        </p>
+                        <p>
+                        <label>Message: <br> <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                        <button type="submit">Send</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    
+    
+    
+    
+    </div>
+
+    </div>
+
+
+    <script src='./scripts/script.js'></script>
+  </body>
+
+</html>

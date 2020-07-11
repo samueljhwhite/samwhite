@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html { 
+    background: url(../assets/background.svg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+nav {
+    width: 100%;
+    /* background-color: #2a2a2a; */
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.nav-links {
+    margin: 15px;
+    color: #cecaca;
+}
+
+.nav-link {
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
+    margin: 5px;
+    color: rgba(252, 247, 248, 0.8);
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+li {
+    padding: 2px;
+    /* margin: 5px; */
+    color: rgba(252, 247, 248, 0.8);
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+a {
+    color: #e65030;
+    margin-top: 50px;
+}
+
+h2 {
+    color: rgba(252, 247, 248, 0.8);
+    margin: 5vh;
+    line-height: 0.8em;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    font-size: 6vw;
+}
+
+input {
+    background: none;
+    border: none;
+    border-style: none none solid;
+    border-color: #e65030;
+    color: rgba(252, 247, 248, 0.8);
+}
+
+textarea {
+    background: none;
+    border: none;
+    border-style: none none solid;
+    border-color: #e65030;
+    width: 200px;
+    height: 100px;
+    color: rgba(252, 247, 248, 0.8);
+}
+
+button {
+    background: none;
+    border: none;
+    color: rgba(252, 247, 248, 0.8);
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid #e65030;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page-content {
+    margin: auto;
+    /* margin-top: 50px; */
+    width: 75%;
+    max-width: 1200px;
+    /* min-width: 450px; */
+}
+
+.content-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.content-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    width: 50%;
+    max-width: 400px;
+}
+
+.title {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#tag {
+    height: 15vw;
+}
+
+#first {
+    font-family: 'Inter', sans-serif;
+    color: rgba(252, 247, 248, 0.8);
+    /* text-align: right; */
+    /* margin-top: 10vh; */
+    line-height: 0.8em;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    font-size: 18vw;
+}
+
+#last {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 18vw;
+    position: relative;
+    display: inline-block;
+    color: rgb(20, 20, 20);
+    -webkit-text-stroke: 1px rgb(252, 247, 248);
+}
+
+.project {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.project-alt {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display:flex;
+    justify-content: flex-start;
+}
+
+#devtracker {
+    background-image: url(../assets/devtracker-background.svg);
+}
+
+#game {
+    background-image: url(../assets/game-of-life.svg);
+}
+
+#cocktail {
+    background-image: url(../assets/cocktail-db.svg);
+}
+
+.project-content {
+    text-align: right;
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.project-content-alt {
+    text-align: left;
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.highlighted {
+    font-style: italic;
+    color: #e65030;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 700;
+}
+
+.highlighted p {
+    font-style: italic;
+    color: #e65030;
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: 700;
+}
+
+.project-title {
+    font-weight: 900;
+    color: rgba(252, 247, 248, 0.8);
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.project-description p {
+    text-align: right;
+}
+
+.project-description-alt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project-description-alt p {
+    text-align: left;
+}
+
+.form-wrapper {
+    padding-left: 100px;
+    padding-top: 30px;
+}
