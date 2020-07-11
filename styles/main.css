@@ -154,6 +154,8 @@ button {
     font-weight: 900;
     font-family: "Inter", sans-serif;
     font-size: 18vw;
+    display: flex;
+    flex-direction: row;
 }
 
 #last {
